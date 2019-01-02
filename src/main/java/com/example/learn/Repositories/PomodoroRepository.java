@@ -7,4 +7,7 @@ import java.util.Optional;
 
 public interface PomodoroRepository extends CrudRepository<Pomodoro, Long> {
     Optional<Pomodoro> findById(Long id);
+
+//    Iterable<Pomodoro> getFromToday();
+
 }
